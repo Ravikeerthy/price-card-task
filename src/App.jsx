@@ -46,7 +46,8 @@ const App = () => {
   ];
   return (
     <div>
-      <CardComp lists={lists}/>
+      {/* Component CAll */}
+      <CardComp lists={lists}/> 
     </div>
   )
 }

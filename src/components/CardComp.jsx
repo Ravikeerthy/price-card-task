@@ -5,7 +5,7 @@ const CardComp = ({ lists }) => {
   return (
     <div id="mainAlign">
       <div class="row row-cols-1 row-cols-md-3 g-4">
-        {lists.map((item, index) => {
+        {lists.map((item, index) => { // mappping the lists and displaying on cards dynamically
           return (
             <>
               <div key={index}>
